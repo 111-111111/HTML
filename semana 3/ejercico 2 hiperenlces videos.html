@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJERCICO 2</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Bungee+Shade&display=swap');
+        .responsive{
+            max-width: 100%;
+            height: auto;
+        }
+        body{background: url(img/original.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; font-family: 'Bungee Inline', cursive;
+font-family: 'Bungee Shade', cursive;
+        }
+        h1,h2{
+        text-align: center;
+        color: white;
+        }
+        .responsive:hover{/* evento al pasar mouse sobre elementos*/
+            transform: scale(1.2);
+            filter: grayscale(100%);
+        }
+    </style>
+</head>
+<body style="background-color: aquamarine;">
+    <!-- Defenir anclaje interno -->
+    <a id="INICIO"></a><br>
+    <!-- Creacion de etiqueta marquesina para mover titulo de un lado a otro -->
+    <marquee behavior="alternate" direction="right" style="font-size: 35px; background-color:rgb(135, 15, 204);">WEB RESPONSIVE CON HIPERVINCULOS Y VIDEOS</marquee>
+    <hr><hr>
+    <!-- Definir hipervinculos -->
+    <h1>SECCION HIPERVINCULOS</h1>
+    <br>
+    <center>
+        <a href="http://www.youtube.com" target="_blank" style="color: blanchedalmond;">VER VIDEOS EN YOUTUBE</a><br><br>
+        <a href="http://eltiempo.com" target="_blank" style="color: blanchedalmond;">VER NOTICIAS EN EL TIEMPO</a><br><br>
+        <a href="http://www.incap.edu.co" target="_blank" style="color: blanchedalmond;">IR A PAG WEB INCAP</a><br><br>
+        <a href="http://www.unigermana.edu.co" target="_blank" style="color: blanchedalmond;">IR A PAG WEB UNIGERMANA</a><br><br>
+        <a href="http://www.as.com" target="_blank" style="color: blanchedalmond;">VER NOTICIAS DEPORTIVAS EN AS</a><br><br>
+        <a href="EJERCICIO 1.htlm" target="_blank" style="color: blanchedalmond;">VER TALLER HTLM</a><br><br></center>
+        <hr><hr>
+        <!-- Seccion de redes sociales -->
+        <h2>SECCION DE RESDES SOCIALES</h2>
+        <center>
+        <img class="responsive" src="img/face.png" alt="" width="100px" height="90px">
+        <img class="responsive" src="img/twitter.png" alt="" width="100px" height="90px">
+        <img class="responsive" src="img/instagram.png" alt="" width="100px" height="90px">
+        <img class="responsive" src="img/whatsapp.png" alt="" width="100px" height="90px">
+        </center>
+        <br><br><br><br>
+        <hr><hr>
+        <!-- Seccion de videos embebidos -->
+        <h2>SECCION DE VIDEOS EMBEBIDOS</h2>
+        <center>
+        <iframe class="responsive" width="560" height="315" src="https://www.youtube.com/embed/cqMfPS8jPys" title="Youtube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+        </center>
+        <hr><hr>
+        <!-- Seccion de textox -->
+        <h2>SECCION PROGRAMA DE DISEÑOS</h3>
+        <center>
+        <img class="responsive" src="img/HTML5.png" alt="" width="100" height="100">
+        <img class="responsive" src="img/css3.png" alt="" width="100" height="100">
+        <p style="color: white;">Esta materia de HTLM es muy importante conocerla por la continua estructuración de las paginas web</p>
+        <br>
+        <p style="color: white;">CSS es su complemento para colocar estilos basicos y avanzados</p></center>
+        <br><br>
+        <hr><hr>
+        <!--Seccion de enlace interno-->
+        <center>
+        <a href="#INICIO"><img src="img/inicio.jpg" width="80" height="70" alt="Inicio"></a>
+        <br><br>
+        <cite style="color: cornsilk;">Creado por @Santiago Vargas</cite>
+        </center>
+</body>
+</html>
